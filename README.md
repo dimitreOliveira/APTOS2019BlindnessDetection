@@ -1,4 +1,4 @@
-![](https://github.com/dimitreOliveira/competitionTemplate/blob/master/Assets/banner.png)
+![](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Assets/banner.png)
 
 ## About the repository
 The goal of this repository is to use the competition data to build machine learning models to process the image data and forecast if the image has any degree of diabetic retinopathy, also try techniques of image preprocessing to help the models extract relevant features.
