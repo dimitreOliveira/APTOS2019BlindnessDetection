@@ -10,8 +10,8 @@
 
 |Model|Train|Validation|Pb Leaderboard|Pv Leaderboard|
 |-----|-----|----------|--------------|--------------|
-|1 - ResNet50 - Batch size 8|???|???|???|???|
-|2 - ResNet50 - Img 640x640|???|???|???|???|
+|1 - ResNet50 - Batch size 8|0.954|???|0.714|???|
+|2 - ResNet50 - Img 640x640|0.934|???|0.660|???|
 |3 - ResNet50 - Img 768x768|0.914|???|0.583|???|
 |4 - ResNet50 - Batch size 32|0.917|???|0.553|???|
 |5 - ResNet50 - Img 779×779|0.957|???|0.576|???|
@@ -56,3 +56,35 @@
 |44 - ResNet50 - Cycle LR and Focal loss|0.888|0.864|0.689|???|
 |45 - ResNet50 - Focal loss - 320x320|0.922|0.889|0.658|???|
 |46 - ResNet50 - Focal loss - Simple augmentation|0.956|0.885|0.716|???|
+|47 - ResNet50 - Focal loss - CV2 resize|0.938|0.878|0.694|???|
+|48 - ResNet50 - Focal loss - Crop relevant areas|0.926|0.90|0.720|???|
+|49 - ResNet50 - Focal loss - TTA|0.934|0.899|0.701|???|
+|50 - ResNet50 - Batch size 8|0.944|0.902|0.724|???|
+|51 - ResNet50 - Threshold opt complete set|0.945|0.907|0.723|???|
+|52 - ResNet50 - Gray scale|0.933|0.906|0.740|???|
+|53 - ResNet50 - RGB scale|0.967|0.893|0.708|???|
+|54 - ResNet50 - Gray circular cropping|0.935|0.846|0.726|???|
+|55 - ResNet50 - RGB circular cropping|0.948|0.890|0.692|???|
+|56 - ResNet50 - Gray Ben's Preprocessing|0.919|0.866|0.711|???|
+|57 - ResNet50 - RGB Ben's Preprocessing|0.945|0.884|0.754|???|
+|58 - ResNet50 - Gray Ben's process, circular crop|0.880|0.849|0.712|???|
+|59 - ResNet50 - RGB Ben's process, circular crop|0.960|0.860|0.699|???|
+|60 - ResNet50 - Gray, circular crop sigma 30|0.889|0.851|0.678|???|
+|61 - ResNet50 - RGB, circular crop sigma 30|0.929|0.894|0.656|???|
+|62 - ResNet50 - Regression - Gray scale|0.928|0.867|0.718|???|
+|63 - ResNet50 - Regression - RGB scale|0.949|0.901|0.719|???|
+|64 - ResNet50 - Regression - Gray Zoom range|0.899|0.853|0.687|???|
+|65 - ResNet50 - Regression - RGB Zoom range|0.916|0.886|0.693|???|
+|66 - ResNet50 - Regression - Warmup 5 epochs|0.927|0.900|0.721|???|
+|67 - ResNet50 - Regression - Lower earlystopping|0.915|0.892|0.687|???|
+|68 - ResNet50 - Regression - Batch size 32|0.933|0.888|0.703|???|
+|69 - ResNet50 - Regression - Image size 224|0.937|0.891|0.704|???|
+|70 - ResNet50 - Regression - 1 generator|0.927|0.872|0.699|???|
+|71 - ResNet50 - Regression - Finu-tune top|0.000|0.000|000|???|
+|72 - ResNet50 - Regression - Finetune top 1st conv|0.000|0.000|000|???|
+|73 - ResNet50 - Regression - Finetune top |0.000|0.000|000|???|
+|74 - ResNet50 - Regression - Incresing batch size|0.949|0.880|0.660|???|
+|75 - ResNet50 - Regression - Increasing img size|0.922|0.878|0.651|???|
+|76 - ResNet50 - Regression - TTA 5|0.938|0.880|0.696|???|
+|77 - ResNet50 - Regression - Imgaug generator|0.966|0.883|0.699|???|
+|78 - ResNet50 - Regression - TTA 8|0.924|0.885|0.709|???|
