@@ -88,3 +88,13 @@
 |76 - ResNet50 - Regression - TTA 5|0.938|0.880|0.696|???|
 |77 - ResNet50 - Regression - Imgaug generator|0.966|0.883|0.699|???|
 |78 - ResNet50 - Regression - TTA 8|0.924|0.885|0.709|???|
+|79 - ResNet50 - Regression - Albumentations|0.962|0.883|0.701|???|
+|80 - ResNet50 - Regression - Imgaug clean|0.970|0.869|0.700|???|
+|81 - ResNet50 - Regression - Keras aug Crop v2|0.944|0.894|0.731|???|
+|82 - ResNet50 - Regression - Imgaug Crop v2|0.963|0.884|0.731|???|
+|83 - ResNet50 - Regression - Albumentation Crop v2|0.965|0.893|0.719|???|
+|84 - VGG16 - Regression|0.794|0.767|0.619|???|
+|85 - VGG19 - Regression|0.736|0.693|0.577|???|
+|86 - Xception - Regression|0.951|0.889|0.746|???|
+|87 - InceptionResNetV2 - Regression|0.957|0.891|0.742|???|
+|88 - InceptionV3 - Regression|0.922|0.888|0.736|???|
