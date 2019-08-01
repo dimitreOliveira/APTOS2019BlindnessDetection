@@ -5,6 +5,7 @@ The goal of this repository is to use the competition data to build machine lear
 
 ### Published Kaggle kernels:
 - [APTOS Blindness Detection - EDA and Keras ResNet50](https://www.kaggle.com/dimitreoliveira/aptos-blindness-detection-eda-and-keras-resnet50)
+- [Diabetic retinopathy - SHAP model explainability](https://www.kaggle.com/dimitreoliveira/diabetic-retinopathy-shap-model-explainability)
 
 ### What you will find
 - Documentation [[link]](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/tree/master/Documentation)
