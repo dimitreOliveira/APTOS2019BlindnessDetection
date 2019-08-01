@@ -98,3 +98,8 @@
 |86 - Xception - Regression|0.951|0.889|0.746|???|
 |87 - InceptionResNetV2 - Regression|0.957|0.891|0.742|???|
 |88 - InceptionV3 - Regression|0.922|0.888|0.736|???|
+|89 - MobileNet 128 - Regression|0.899|0.863|0.692|???|
+|90 - MobileNet 224 - Regression|0.893|0.864|0.694|???|
+|91 - NASNetMobile - Regression|0.913|0.889|0.740|???|
+|92 - NASNetLarge - Regression|0.969|0.879|0.761|???|
+|93 - MobileNetV2 - Regression|0.910|0.873|0.701|???|
