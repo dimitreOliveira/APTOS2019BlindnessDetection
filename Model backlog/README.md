@@ -103,3 +103,8 @@
 |91 - NASNetMobile - Regression|0.913|0.889|0.740|???|
 |92 - NASNetLarge - Regression|0.969|0.879|0.761|???|
 |93 - MobileNetV2 - Regression|0.910|0.873|0.701|???|
+|94 - DenseNet121 - Regression|0.924|0.875|0.740|???|
+|95 - DenseNet169 - Regression|0.935|0.878|0.757|???|
+|96 - DenseNet201 - Regression|0.959|0.902|0.738|???|
+|97 - ResNet50 - Regression - Default size|0.925|0.863|0.710|???|
+|98 - VGG16 - Regression - Default size|0.734|0.699|0.619|???|
