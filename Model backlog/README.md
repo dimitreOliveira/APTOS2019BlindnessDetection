@@ -108,3 +108,21 @@
 |96 - DenseNet201 - Regression|0.959|0.902|0.738|???|
 |97 - ResNet50 - Regression - Default size|0.925|0.863|0.710|???|
 |98 - VGG16 - Regression - Default size|0.734|0.699|0.619|???|
+|99 - VGG19 - Regression - Default size|0.808|0.780|0.658|???|
+|100 - Xception - Regression - Default size|0.955|0.887|0.732|???|
+|101 - InceptionResNetV2 - Regression - Default size|0.953|0.877|0.739|???|
+|102 - InceptionV3 - Regression - Default size|0.980|0.899|0.744|???|
+|103 - NASNetMobile - Regression - Default size|0.900|0.887|0.718|???|
+|104 - NASNetLarge - Regression - Default size|0.948|0.897|0.757|???|
+|105 - MobileNet 128 - Regression - Default size|0.847|0.805|0.583|???|
+|106 - MobileNet 224 - Regression - Default size|0.886|0.853|0.670|???|
+|107 - MobileNetV2 - Regression - Default size|0.839|0.799|0.717|???|
+|108 - DenseNet121 - Regression - Default size|0.916|0.864|0.704|???|
+|109 - DenseNet169 - Regression - Default size|0.939|0.870|0.743|???|
+|110 - DenseNet201 - Regression - Default size|0.928|0.883|0.737|???|
+|111 - EfficientNetB0 - Regression|0.946|0.876|0.732|???|
+|112 - EfficientNetB1 - Regression|0.950|0.889|0.732|???|
+|113 - EfficientNetB2 - Regression|0.955|0.895|0.737|???|
+|114 - EfficientNetB3 - Regression|0.958|0.898|0.743|???|
+|115 - EfficientNetB4 - Regression|0.940|0.889|0.744|???|
+|116 - EfficientNetB5 - Regression|0.961|0.907|0.746|???|
