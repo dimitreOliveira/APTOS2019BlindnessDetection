@@ -126,3 +126,15 @@
 |114 - EfficientNetB3 - Regression|0.958|0.898|0.743|???|
 |115 - EfficientNetB4 - Regression|0.940|0.889|0.744|???|
 |116 - EfficientNetB5 - Regression|0.961|0.907|0.746|???|
+|117 - EfficientNetB0 - Regression - Default size|0.941|0.880|0.723|???|
+|118 - EfficientNetB1 - Regression - Default size|0.940|0.880|0.721|???|
+|119 - EfficientNetB2 - Regression - Default size|0.951|0.895|0.737|???|
+|120 - EfficientNetB3 - Regression - Default size|0.947|0.891|0.734|???|
+|121 - EfficientNetB4 - Regression - Default size|0.964|0.903|0.751|???|
+|122 - EfficientNetB5 - Regression - Default size|0.956|0.894|0.756|???|
+|123 - NASNetLarge - Classification|0.950|0.877|0.746|???|
+|124 - DenseNet169 - Classification|0.928|0.892|0.757|???|
+|125 - DenseNet169 - Classification - Default size|0.949|0.898|0.751|???|
+|126 - NASNetLarge - Classification - Default size|0.944|0.894|0.751|???|
+|127 - EfficientNetB5 - Classification|0.944|0.905|0.753|???|
+|128 - EfficientNetB5 - Classification - Default size|0.936|0.901|0.749|???|
