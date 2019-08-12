@@ -138,3 +138,16 @@
 |126 - NASNetLarge - Classification - Default size|0.944|0.894|0.751|???|
 |127 - EfficientNetB5 - Classification|0.944|0.905|0.753|???|
 |128 - EfficientNetB5 - Classification - Default size|0.936|0.901|0.749|???|
+|129 - EfficientNetB5 - Classification - Attention|0.981|0.891|0.741|???|
+|130 - EfficientNetB5 - Regression - Attention|0.961|0.894|0.736|???|
+|131 - DenseNet169 - Classification - Attention|0.939|0.884|0.747|???|
+|132 - NASNetLarge - Regression - Attentention|0.937|0.883|0.737|???|
+|133 - DenseNet169 - Classification - Refactor|0.962|0.900|0.735|???|
+|134 - DenseNet169 - Regression - Refactor|0.931|0.867|0.724|???|
+|135 - EfficientNetB5 - Classification - Refactor|0.946|0.901|0.733|???|
+|136 - NASNetLarge - Regression - Dft size - Refactor|0.976|0.902|0.732|???|
+|137 - EfficientNetB5 - Regression - Dft size - Ref|0.963|0.904|0.737|???|
+|138 - NASNetLarge - Regression - Refactor|0.931|0.880|0.741|???|
+|139 - NASNetLarge - Regression - TTAx10|0.939|0.893|0.745|???|
+|140 - EfficientNetB5 - Regression - TTAx10|0.958|0.900|0.759|???|
+|141 - EfficientNetB5 - Regression - 2step finetune|0.951|0.895|0.746|???|
