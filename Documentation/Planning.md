@@ -17,6 +17,16 @@
 - ### Kernels:
  - [Color transformation on images](https://www.kaggle.com/mytymohan/blindness-detection-with-color-gradients)
  - [APTOS Simple Preprocessing - Decoloring & Cropping](https://www.kaggle.com/ratthachat/aptos-simple-preprocessing-decoloring-cropping)
+ - [process test images parallelly](https://www.kaggle.com/naivelamb/process-test-images-parallelly)
+ - [APTOS Preprocessing](https://www.kaggle.com/jeru666/aptos-preprocessing)
+ 
+- ### Discussion:
+ - [Some Tips](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/99353)
+ - [Discrepancies between CV/LB](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/100815)
+ - [Public EfficientNet Keras Weights and Utility Script](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/100186)
+ - [Competition Metric](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/97610)
+ - [How far can 256x256 image size go?](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/104818)
+ - [Some](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/99353)
  
 - ### Related datasets:
  - [BMI_6334 Sample Diab Ret](https://www.kaggle.com/lrasmy/sample-diab-retn)
