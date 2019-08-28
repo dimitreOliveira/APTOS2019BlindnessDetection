@@ -151,3 +151,22 @@
 |139 - NASNetLarge - Regression - TTAx10|0.939|0.893|0.745|???|
 |140 - EfficientNetB5 - Regression - TTAx10|0.958|0.900|0.759|???|
 |141 - EfficientNetB5 - Regression - 2step finetune|0.951|0.895|0.746|???|
+|142 - EfficientNetB5 - Regression - LR warmup|0.956|0.905|0.755|???|
+|143 - EfficientNetB5 - Reg - Cosine LR decay|0.951|0.913|0.756|???|
+|144 - EfficientNetB5 - Reg - Cosine LR decay Plt 3|0.944|0.909|0.771|???|
+|145 - EfficientNetB5 - Reg - LR warmup, RMSprop|0.976|0.908|0.755|???|
+|146 - EfficientNetB5 - Reg - Cosine LR, RMSprop|0.951|0.914|0.771|???|
+|147 - EfficientNetB5 - Reg- Cosine LR Plt, RMSprop|0.950|0.906|0.755|???|
+|148 - EfficientNetB5 - Reg- Zoom augmentation 125%|0.969|0.913|0.745|???|
+|149 - EfficientNetB5 - Reg- Cyclical LR triangular|0.966|0.921|0.740|???|
+|150 - EfficientNetB5 -Reg- Cyclical LR triangular2|0.950|0.908|0.761|???|
+|151 - EfficientNetB5 -Reg- Cyclical LR exp_range|0.944|0.911|0.738|???|
+|152 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig01|0.966|0.910|0.726|???|
+|153 - EfficientNetB5 -Reg- Cyc LR triangular2 Adam|0.936|0.900|0.765|???|
+|154 - EfficientNetB5 -Reg- Cyc LR triangular2 Zoom|0.941|0.902|0.755|???|
+|155 - EfficientNetB5 -Class- Cycl LR triangular2|0.962|0.898|0.744|???|
+|156 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig02|0.964|0.900|0.745|???|
+|157 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig03|0.972|0.904|0.753|???|
+|158 - EfficientNetB5 - Classification - Focal loss|0.948|0.892|0.740|???|
+|159 - EfficientNetB5 - Reg - Cosine LR, RMSprop2|0.931|0.888|0.755|???|
+|160 - EfficientNetB5 - Reg - Zoom only on train|0.956|0.901|0.759|???|
