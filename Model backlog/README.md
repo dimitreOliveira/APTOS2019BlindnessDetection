@@ -230,3 +230,23 @@
 |218 - EfficientNetB5-Reg-Img256 0,5data No ben|0.901|0.910|0.780|???|
 |219 - EfficientNetB4-Reg-Img256 0,5data No ben|0.919|0.912|0.783|???|
 |220 - EfficientNetB4-Reg-Img256 0,5data LR1e-3/2|0.832|0.912|0.794|???|
+|221 - EfficientNetB5-Reg-Img328 0,5data No ben|0.917|0.918|0.784|???|
+|222 - EfficientNetB4-Reg-Img380 0,5data No ben|0.928|0.919|0.768|???|
+|223 - EfficientNetB3-Reg-Img300 0,5data No ben|0.925|0.911|0.759|???|
+|224 - EfficientNetB5-Reg-Img224 Old data|???|???|???|???|
+|225 - EfficientNetB5-Reg-Img224 0,5data TTA 10|0.906|0.912|0.785|???|
+|226 - EfficientNetB5-Reg-Img224 0,5data No TTA|0.847|0.910|0.777|???|
+|227 - EfficientNetB5-Class-Img224 0,5data No Ben|0.702|0.868|000|???|
+|228 - EfficientNetB5-Class-Img224 0,5 Focal Loss|0.709|0.874|000|???|
+|229 - EfficientNetB5-Reg-Img224 0,5 Longer ES|0.932|0.911|0.789|???|
+|230 - EfficientNetB5-Reg-Img224 0,5 Aug Flip|0.940|0.902|0.766|???|
+|231 - EfficientNetB5-Reg-Img224 0,5 Aug Zoom|0.887|0.912|0.782|???|
+|232 - EfficientNetB5-Reg-Img224 0,5 RAdam|0.912|0.905|0.791|???|
+|233 - EfficientNetB5-Reg-Img224 0,5data Fold1|0.909|0.921|0.782|???|
+|234 - EfficientNetB5-Reg-Img224 0,5data Fold2|0.823|0.898|000|???|
+|235 - EfficientNetB5-Reg-Img224 0,5data Fold3|0.906|0.925|000|???|
+|236 - EfficientNetB5-Reg-Img224 0,5data Fold4|0.895|0.923|000|???|
+|237 - EfficientNetB5-Reg-Img224 0,5data Fold5|0.904|0.901|000|???|
+|238 - EfficientNetB5-Reg-Img224 Old Pretrain NoBen|0.962|0.914|0.778|???|
+|239 - EfficientNetB5-Reg-Img224 Old Pretrain|0.938|0.894|000|???|
+|240 - EfficientNetB543 -Reg- 5-Fold Ensemble|0.949|0.923|0.795|???|
