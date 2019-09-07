@@ -210,3 +210,23 @@
 |198 - EfficientNetB0-Reg-Old&New-Batch32 Img224|0.898|0.900|0.755|???|
 |199 - EfficientNetB3-Reg-Old&New-Batch32 Img224|0.903|0.900|0.758|???|
 |200 - EfficientNetB5-Reg-Old&New-Batch32 Img224|0.900|0.908|0.681|???|
+|201 - EfficientNetB5-Reg-Old&New-Batch32 Img224 5e|0.907|0.906|0.766|???|
+|202 - EfficientNetB5-Reg-Img224 0,5New data|0.927|0.907|0.771|???|
+|203 - EfficientNetB5-Reg-Img224 0,3New data|0.802|0.908|0.772|???|
+|204 - EfficientNetB3-Reg-Img224 0,5New data|0.849|0.898|0.769|???|
+|205 - EfficientNetB5-Reg-Img224 0,5New data|0.908|0.899|0.771|???|
+|206 - EfficientNetB5-Reg-Img224 0,5data No Ben|0.904|0.916|0.796|???|
+|207 - EfficientNetB3-Reg-Img224 0,5data No Ben|0.909|0.911|0.791|???|
+|208 - EfficientNetB5-Reg-Img224 0,5data Orig top|0.887|0.903|0.763|???|
+|209 - EfficientNetB3-Reg-Img224 0,5data Orig top|0.894|0.902|0.762|???|
+|210 - EffNetB5-Reg-Img224 0,5 Orig top No Ben|0.829|0.907|0.794|???|
+|211 - EffNetB3-Reg-Img224 0,5 Orig top No Ben|0.896|0.912|0.785|???|
+|212 - EfficientNetB5-Reg-Img224 0,3data No Ben|0.903|0.912|0.787|???|
+|213 - EfficientNetB3-Reg-Img224 0,3data No Ben|0.908|0.908|0.791|???|
+|214 - EfficientNetB5-Reg-Img224 0,5data No Ben 25e|0.767|0.906|0.775|???|
+|215 - EfficientNetB3-Reg-Img224 0,5data No Ben 25e|0.918|0.916|0.788|???|
+|216 - EfficientNetB5-Reg-Img456 0,5data No ben|0.875|0.917|0.707|???|
+|217 - EfficientNetB5-Reg-Img224 0,5data Reg crop|0.903|0.911|0.785|???|
+|218 - EfficientNetB5-Reg-Img256 0,5data No ben|0.901|0.910|0.780|???|
+|219 - EfficientNetB4-Reg-Img256 0,5data No ben|0.919|0.912|0.783|???|
+|220 - EfficientNetB4-Reg-Img256 0,5data LR1e-3/2|0.832|0.912|0.794|???|
