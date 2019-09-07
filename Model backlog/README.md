@@ -170,3 +170,23 @@
 |158 - EfficientNetB5 - Classification - Focal loss|0.948|0.892|0.740|???|
 |159 - EfficientNetB5 - Reg - Cosine LR, RMSprop2|0.931|0.888|0.755|???|
 |160 - EfficientNetB5 - Reg - Zoom only on train|0.956|0.901|0.759|???|
+|161 - EfficientNetB5 - Reg - Clean classifier|0.966|0.912|0.770|???|
+|162 - EfficientNetB5 - Reg - Clean classifier2|0.965|0.908|0.769|???|
+|163 - EfficientNetB5 - Reg - Batch 32, Img 224|0.962|0.895|0.769|???|
+|164 - EfficientNetB0 - Reg - Batch 128, Img 224|0.982|0.893|0.726|???|
+|165 - EfficientNetB5 - Reg - Adam Accumulate 4|0.937|0.899|0.725|???|
+|166 - EfficientNetB5 - Reg - Adam Accumulate 8|0.931|0.897|0.712|???|
+|167 - EfficientNetB5 - Reg - Big Classifier Concat|0.917|0.880|0.731|???|
+|168 - EfficientNetB5 - Reg - Big Classifier Avg|0.953|0.909|0.742|???|
+|169 - EfficientNetB5 - Reg - Big Classifier Max|0.960|0.902|0.768|???|
+|170 - EfficientNetB5 - Reg - Cosine RAdam opt|0.981|0.895|0.752|???|
+|171 - EfficientNetB5 - Reg - RAdam optimzer|0.956|0.897|0.751|???|
+|172 - EfficientNetB3 - Reg - Batch 32, Img 224|0.977|0.889|0.731|???|
+|173 - EfficientNetB5 - Reg - No Ben process|0.989|0.891|0.729|???|
+|174 - EfficientNetB5 - Reg - Dropout|0.973|0.900|0.727|???|
+|175 - EfficientNetB5 - Reg - No circle crop|0.977|0.901|0.754|???|
+|176 - EfficientNetB5 - Reg - No Ben & Circle crop|0.966|0.885|0.702|???|
+|177 - EfficientNetB5 - Reg - No crop|0.977|0.912|0.731|???|
+|178 - EfficientNetB5 - Reg - RAdam optimizer|0.975|0.890|0.736|???|
+|179 - EfficientNetB5 - Reg - Batch 32 Img 224 Plt2|0.974|0.897|0.751|???|
+|180 - EfficientNetB5 - Reg - RAdam opt, Cosine|0.960|0.912|0.764|???|
