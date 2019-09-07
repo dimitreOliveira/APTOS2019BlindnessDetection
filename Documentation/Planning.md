@@ -26,7 +26,7 @@
  - [Public EfficientNet Keras Weights and Utility Script](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/100186)
  - [Competition Metric](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/97610)
  - [How far can 256x256 image size go?](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/104818)
- - [Some](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/99353)
+ - [Rethink image size](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/106155)
  
 - ### Related datasets:
  - [BMI_6334 Sample Diab Ret](https://www.kaggle.com/lrasmy/sample-diab-retn)
