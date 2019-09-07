@@ -190,3 +190,23 @@
 |178 - EfficientNetB5 - Reg - RAdam optimizer|0.975|0.890|0.736|???|
 |179 - EfficientNetB5 - Reg - Batch 32 Img 224 Plt2|0.974|0.897|0.751|???|
 |180 - EfficientNetB5 - Reg - RAdam opt, Cosine|0.960|0.912|0.764|???|
+|181 - EfficientNetB5 - Reg - RAdam opt|0.961|0.911|0.759|???|
+|182 - EfficientNetB5 - Reg - Fold1 - Bs32, Img224|0.937|0.897|0.745|???|
+|183 - EfficientNetB5 - Reg - Fold2 - Bs32, Img224|0.942|0.897|0.749|???|
+|184 - EfficientNetB5 - Reg - Fold3 - Bs32, Img224|0.976|0.907|0.748|???|
+|185 - EfficientNetB5 - Reg - Fold4 - Bs32, Img224|0.976|0.919|0.696|???|
+|186 - EfficientNetB5 - Reg - Fold5 - Bs32, Img224|0.963|0.883|0.751|???|
+|187 - EfficientNetB5 - Reg - 5-Fold Ensemble-Img224|0.962|0.963|0.766|???|
+|188 - EfficientNetB5 - Reg - Fold1 - Img 456|0.951|0.907|0.742|???|
+|189 - EfficientNetB5 - Reg - Fold2 - Img 456|0.972|0.909|0.738|???|
+|190 - EfficientNetB5 - Reg - Fold3 - Img 456|0.940|0.921|0.730|???|
+|191 - EfficientNetB5 - Reg - Fold4 - Img 456|0.948|0.920|0.739|???|
+|192 - EfficientNetB5 - Reg - Fold5 - Img 456|0.962|0.904|0.743|???|
+|193 - EfficientNetB5 -Reg- 5-Fold Ensemble-Img456|0.959|0.960|000|???|
+|194 - EfficientNetB5-Reg-Old Data-Batch32 Img224|0.746|0.810|0.584|???|
+|195 - EfficientNetB3-Reg-Old Data-Batch32 Img224|0.751|0.857|0.629|???|
+|196 - EfficientNetB0-Reg-Old Data-Batch32 Img224|0.790|0.821|0.643|???|
+|197 - EfficientNetB5 -Reg- 5-Fold-Img456 Inference|???|???|0.759|???|
+|198 - EfficientNetB0-Reg-Old&New-Batch32 Img224|0.898|0.900|0.755|???|
+|199 - EfficientNetB3-Reg-Old&New-Batch32 Img224|0.903|0.900|0.758|???|
+|200 - EfficientNetB5-Reg-Old&New-Batch32 Img224|0.900|0.908|0.681|???|
