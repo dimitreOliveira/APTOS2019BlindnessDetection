@@ -273,15 +273,6 @@
 |261 - EfficientNetB5-Reg-Img224 Balanced Fold3|0.907|0.917|000|???|
 |262 - EfficientNetB5-Reg-Img224 Balanced Fold4|0.888|0.928|000|???|
 |263 - EfficientNetB5-Reg-Img224 Balanced Fold5|0.811|0.887|000|???|
-|264 - EffNetB5 -Reg- Img224 Old&New Resize ensemb|0.946|0.912|0.781|???|
-|265 - EfficientNetB5-Reg-Img328 Old Pretrain Fold1|0.964|0.915|000|???|
-|257 - EffNetB5 -Reg- 5-Fold Img224 Old&New No Aug|0.957|0.959|0.796|???|
-|258 - EffNetB5 -Reg- 5-Fold Img224 Old&New TTA 10|0.959|0.963|0.802|???|
-|259 - EfficientNetB5-Reg-Img224 Balanced Fold1|0.932|0.920|000|???|
-|260 - EfficientNetB5-Reg-Img224 Balanced Fold2|0.879|0.924|000|???|
-|261 - EfficientNetB5-Reg-Img224 Balanced Fold3|0.907|0.917|000|???|
-|262 - EfficientNetB5-Reg-Img224 Balanced Fold4|0.888|0.928|000|???|
-|263 - EfficientNetB5-Reg-Img224 Balanced Fold5|0.811|0.887|000|???|
 |264 - EffNetB5 -Reg- Img224 Old&New Resize ensemble|0.946|0.912|0.781|???|
 |265 - EfficientNetB5-Reg-Img328 Old Pretrain Fold1|0.964|0.915|000|???|
 |266 - EfficientNetB5-Reg-Img328 Old Pretrain Fold2|0.934|0.908|000|???|
