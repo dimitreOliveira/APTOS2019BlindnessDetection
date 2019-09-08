@@ -17,6 +17,7 @@
 - ### Kernels:
  - [Color transformation on images](https://www.kaggle.com/mytymohan/blindness-detection-with-color-gradients)
  - [APTOS Simple Preprocessing - Decoloring & Cropping](https://www.kaggle.com/ratthachat/aptos-simple-preprocessing-decoloring-cropping)
+ - [APTOS [updated] Albumentation meets Grad-CAM](https://www.kaggle.com/ratthachat/aptos-updated-albumentation-meets-grad-cam/)
  - [process test images parallelly](https://www.kaggle.com/naivelamb/process-test-images-parallelly)
  - [APTOS Preprocessing](https://www.kaggle.com/jeru666/aptos-preprocessing)
  
@@ -29,10 +30,7 @@
  - [Rethink image size](https://www.kaggle.com/c/aptos2019-blindness-detection/discussion/106155)
  
 - ### Related datasets:
- - [BMI_6334 Sample Diab Ret](https://www.kaggle.com/lrasmy/sample-diab-retn)
- - [MESSIDOR-2 DR Grades](https://www.kaggle.com/google-brain/messidor2-dr-grades)
  - [Diabetic Retinopathy (resized)](https://www.kaggle.com/tanlikesmath/diabetic-retinopathy-resized)
- - [Diabetic Retinopathy 4k categorized](https://www.kaggle.com/kirollosawad/diabetic-retinopathy-4k-categorized)
  - [Diabetic Rateinopathy Resized](https://www.kaggle.com/sohaibanwaar1203/diabetic-rateinopathy-full)
  - [retinopathy_train_2015](https://www.kaggle.com/donkeys/retinopathy-train-2015)
  - [Diabetic Retinopathy Detection](https://www.kaggle.com/c/diabetic-retinopathy-detection-f18/data)
