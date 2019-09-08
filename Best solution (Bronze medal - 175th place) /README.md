@@ -38,7 +38,7 @@ The problem was treated as a regression, this way should be easier to maximize t
   - Warm-up step:
     - Freeze all layers except the last 2.
     - Learning rate: 4e-3, Adam optimizer and Cosine & Warm-up learning rate scheduler (2 epochs warm-up and hold base LR for 2 epochs).
-    - Train for 5 epochs.
+    - Train for 5 epochs.
   - Fine-tunning step:
     - Unfreeze all layers.
     - Early stopping monitoring validation loss for 5 epochs.
