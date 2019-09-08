@@ -36,7 +36,3 @@
  - [Diabetic Rateinopathy Resized](https://www.kaggle.com/sohaibanwaar1203/diabetic-rateinopathy-full)
  - [retinopathy_train_2015](https://www.kaggle.com/donkeys/retinopathy-train-2015)
  - [Diabetic Retinopathy Detection](https://www.kaggle.com/c/diabetic-retinopathy-detection-f18/data)
- 
-- ### Insights:
- - #### Positive Insights
- - #### Negative Insights
