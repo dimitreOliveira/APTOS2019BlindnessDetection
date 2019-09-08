@@ -250,3 +250,57 @@
 |238 - EfficientNetB5-Reg-Img224 Old Pretrain NoBen|0.962|0.914|0.778|???|
 |239 - EfficientNetB5-Reg-Img224 Old Pretrain|0.938|0.894|000|???|
 |240 - EfficientNetB543 -Reg- 5-Fold Ensemble|0.949|0.923|0.795|???|
+|241 - EfficientNetB5-Reg-Img456 Old Pretrain|0.955|0.904|0.773|???|
+|242 - EfficientNetB5-Reg-Img328 Old Pretrain|0.964|0.909|000|???|
+|243 - EfficientNetB5-Reg-Img256 Old Pretrain|0.964|0.903|0.791|???|
+|244 - EfficientNetB5-Reg-Img224 Old Pretrain 10ep|0.965|0.911|0.773|???|
+|245 - EfficientNetB5-Reg-Img224 Old&New Pretrained|0.944|0.908|0.785|???|
+|246 - EfficientNetB5-Reg-Img256 Old&New Pretrained|0.939|0.910|0.791|???|
+|247 - EfficientNetB5-Reg-Img328 Old&New Pretrained|0.940|0.908|0.790|???|
+|248 - EfficientNetB5-Reg-Img224 Old data Balanced|???|???|???|???|
+|249 - EfficientNetB5 -Reg- 5-Fold Img224 Old&New|0.959|0.963|0.803|???|
+|250 - EffNetB5-Reg-224 Old Pretrain Balanced NoBen|0.941|0.907|0.770|???|
+|251 - EffNetB5-Reg-224 Old Pretrain Balanced|0.924|0.892|000|???|
+|252 - EffNetB5-Reg-256 Old Pretrain Balanced NoBen|0.925|0.894|000|???|
+|253 - EffNetB5-Reg-328 Old Pretrain Balanced NoBen|0.936|0.908|000|???|
+|254 - EffNetB5-Reg-224 0,3Old&New Balanced No Ben|0.931|0.911|0.768|???|
+|255 - EffNetB5-Reg-Img224 Old Pretrain Sample STDV|0.967|0.913|0.786|???|
+|256 - EffNetB5-Reg-Img224 Old Pretrain FeatureSTDV|0.944|0.902|000|???|
+|257 - EffNetB5 -Reg- 5-Fold Img224 Old&New No Aug|0.957|0.959|0.796|???|
+|258 - EffNetB5 -Reg- 5-Fold Img224 Old&New TTA 10|0.959|0.963|0.802|???|
+|259 - EfficientNetB5-Reg-Img224 Balanced Fold1|0.932|0.920|000|???|
+|260 - EfficientNetB5-Reg-Img224 Balanced Fold2|0.879|0.924|000|???|
+|261 - EfficientNetB5-Reg-Img224 Balanced Fold3|0.907|0.917|000|???|
+|262 - EfficientNetB5-Reg-Img224 Balanced Fold4|0.888|0.928|000|???|
+|263 - EfficientNetB5-Reg-Img224 Balanced Fold5|0.811|0.887|000|???|
+|264 - EffNetB5 -Reg- Img224 Old&New Resize ensemb|0.946|0.912|0.781|???|
+|265 - EfficientNetB5-Reg-Img328 Old Pretrain Fold1|0.964|0.915|000|???|
+|257 - EffNetB5 -Reg- 5-Fold Img224 Old&New No Aug|0.957|0.959|0.796|???|
+|258 - EffNetB5 -Reg- 5-Fold Img224 Old&New TTA 10|0.959|0.963|0.802|???|
+|259 - EfficientNetB5-Reg-Img224 Balanced Fold1|0.932|0.920|000|???|
+|260 - EfficientNetB5-Reg-Img224 Balanced Fold2|0.879|0.924|000|???|
+|261 - EfficientNetB5-Reg-Img224 Balanced Fold3|0.907|0.917|000|???|
+|262 - EfficientNetB5-Reg-Img224 Balanced Fold4|0.888|0.928|000|???|
+|263 - EfficientNetB5-Reg-Img224 Balanced Fold5|0.811|0.887|000|???|
+|264 - EffNetB5 -Reg- Img224 Old&New Resize ensemble|0.946|0.912|0.781|???|
+|265 - EfficientNetB5-Reg-Img328 Old Pretrain Fold1|0.964|0.915|000|???|
+|266 - EfficientNetB5-Reg-Img328 Old Pretrain Fold2|0.934|0.908|000|???|
+|267 - EfficientNetB5-Reg-Img328 Old Pretrain Fold3|0.962|0.915|000|???|
+|268 - EfficientNetB5-Reg-Img328 Old Pretrain Fold4|0.963|0.924|000|???|
+|269 - EfficientNetB5-Reg-Img328 Old Pretrain Fold5|0.967|0.910|000|???|
+|270 - EffNetB5 -Reg- 5-Fold 328 OldPretrain TTA 5|0.961|0.960|0.796|???|
+|271 - EffNetB5 -Reg- 5-Fold 224 Balanced TTA 5|0.956|0.958|0.803|???|
+|272 - EfficientNetB4-Reg-Img256 Old&New Fold1|0.697|0.877|000|???|
+|273 - EfficientNetB4-Reg-Img256 Old&New Fold2|0.839|0.923|000|???|
+|274 - EfficientNetB4-Reg-Img256 Old&New Fold3|0.738|0.899|000|???|
+|275 - EfficientNetB4-Reg-Img256 Old&New Fold4|0.672|0.894|000|???|
+|276 - EfficientNetB4-Reg-Img256 Old&New Fold5|???|???|???|???|
+|277 - EffNetB5 -Reg- 5-Foldx2 Img224 TTA 5|0.959|0.960|0.804|???|
+|278 - EfficientNetB4-Reg-Img224 Old data Balanced|0.800|0.716|000|???|
+|279 - EfficientNetB4-Reg-Img256 Old Pretrain Fold1|0.929|0.902|000|???|
+|280 - EfficientNetB4-Reg-Img256 Old Pretrain Fold2|0.933|0.895|000|???|
+|281 - EfficientNetB4-Reg-Img256 Old Pretrain Fold3|0.965|0.921|000|???|
+|282 - EfficientNetB4-Reg-Img256 Old Pretrain Fold4|0.964|0.920|000|???|
+|283 - EfficientNetB4-Reg-Img256 Old Pretrain Fold5|0.965|0.898|000|???|
+|284 - EfficientNet -Reg- 5-Fold Top5 TTA 5|0.951|0.921|000|???|
+|285 - EffNetB5 -Reg- 5-Fold 224 Balanced TTA 5|0.948|0.947|0.780|???|
