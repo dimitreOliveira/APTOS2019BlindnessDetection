@@ -270,40 +270,40 @@
 
 |Model|Train|Validation|Pb Leaderboard|Pv Leaderboard|
 |-----|-----|----------|--------------|--------------|
-|84 - VGG16 - Regression|0.794|0.767|0.619|???|
-|85 - VGG19 - Regression|0.736|0.693|0.577|???|
-|86 - Xception - Regression|0.951|0.889|0.746|???|
-|87 - InceptionResNetV2 - Regression|0.957|0.891|0.742|???|
-|88 - InceptionV3 - Regression|0.922|0.888|0.736|???|
-|89 - MobileNet 128 - Regression|0.899|0.863|0.692|???|
-|90 - MobileNet 224 - Regression|0.893|0.864|0.694|???|
-|91 - NASNetMobile - Regression|0.913|0.889|0.740|???|
-|92 - NASNetLarge - Regression|0.969|0.879|0.761|???|
-|93 - MobileNetV2 - Regression|0.910|0.873|0.701|???|
-|94 - DenseNet121 - Regression|0.924|0.875|0.740|???|
-|95 - DenseNet169 - Regression|0.935|0.878|0.757|???|
-|96 - DenseNet201 - Regression|0.959|0.902|0.738|???|
-|98 - VGG16 - Regression - Default size|0.734|0.699|0.619|???|
-|99 - VGG19 - Regression - Default size|0.808|0.780|0.658|???|
-|100 - Xception - Regression - Default size|0.955|0.887|0.732|???|
-|101 - InceptionResNetV2 - Regression - Default size|0.953|0.877|0.739|???|
-|102 - InceptionV3 - Regression - Default size|0.980|0.899|0.744|???|
-|103 - NASNetMobile - Regression - Default size|0.900|0.887|0.718|???|
+|84 - VGG16 - Regression|0.794|0.767|0.619|0.757|
+|85 - VGG19 - Regression|0.736|0.693|0.577|0.743|
+|86 - Xception - Regression|0.951|0.889|0.746|0.891|
+|87 - InceptionResNetV2 - Regression|0.957|0.891|0.742|0.884|
+|88 - InceptionV3 - Regression|0.922|0.888|0.736|0.888|
+|89 - MobileNet 128 - Regression|0.899|0.863|0.692|0.857|
+|90 - MobileNet 224 - Regression|0.893|0.864|0.694|0.865|
+|91 - NASNetMobile - Regression|0.913|0.889|0.740|0.882|
+|92 - NASNetLarge - Regression|0.969|0.879|0.761|0.891|
+|93 - MobileNetV2 - Regression|0.910|0.873|0.701|0.850|
+|94 - DenseNet121 - Regression|0.924|0.875|0.740|0.867|
+|95 - DenseNet169 - Regression|0.935|0.878|0.757|0.881|
+|96 - DenseNet201 - Regression|0.959|0.902|0.738|0.882|
+|98 - VGG16 - Regression - Default size|0.734|0.699|0.619|0.762|
+|99 - VGG19 - Regression - Default size|0.808|0.780|0.658|0.785|
+|100 - Xception - Regression - Default size|0.955|0.887|0.732|0.886|
+|101 - InceptionResNetV2 - Regression - Default size|0.953|0.877|0.739|0.883|
+|102 - InceptionV3 - Regression - Default size|0.980|0.899|0.744|0.885|
+|103 - NASNetMobile - Regression - Default size|0.900|0.887|0.718|0.876|
 |104 - NASNetLarge - Regression - Default size|0.948|0.897|0.757|???|
 |105 - MobileNet 128 - Regression - Default size|0.847|0.805|0.583|???|
 |106 - MobileNet 224 - Regression - Default size|0.886|0.853|0.670|???|
-|107 - MobileNetV2 - Regression - Default size|0.839|0.799|0.717|???|
-|108 - DenseNet121 - Regression - Default size|0.916|0.864|0.704|???|
-|109 - DenseNet169 - Regression - Default size|0.939|0.870|0.743|???|
-|110 - DenseNet201 - Regression - Default size|0.928|0.883|0.737|???|
-|123 - NASNetLarge - Classification|0.950|0.877|0.746|???|
-|124 - DenseNet169 - Classification|0.928|0.892|0.757|???|
-|125 - DenseNet169 - Classification - Default size|0.949|0.898|0.751|???|
-|126 - NASNetLarge - Classification - Default size|0.944|0.894|0.751|???|
-|131 - DenseNet169 - Classification - Attention|0.939|0.884|0.747|???|
-|132 - NASNetLarge - Regression - Attentention|0.937|0.883|0.737|???|
-|133 - DenseNet169 - Classification - Refactor|0.962|0.900|0.735|???|
-|134 - DenseNet169 - Regression - Refactor|0.931|0.867|0.724|???|
-|136 - NASNetLarge - Regression - Dft size - Refactor|0.976|0.902|0.732|???|
-|138 - NASNetLarge - Regression - Refactor|0.931|0.880|0.741|???|
-|139 - NASNetLarge - Regression - TTAx10|0.939|0.893|0.745|???|
+|107 - MobileNetV2 - Regression - Default size|0.839|0.799|0.717|0.869|
+|108 - DenseNet121 - Regression - Default size|0.916|0.864|0.704|0.846|
+|109 - DenseNet169 - Regression - Default size|0.939|0.870|0.743|0.889|
+|110 - DenseNet201 - Regression - Default size|0.928|0.883|0.737|0.882|
+|123 - NASNetLarge - Classification|0.950|0.877|0.746|0.877|
+|124 - DenseNet169 - Classification|0.928|0.892|0.757|0.896|
+|125 - DenseNet169 - Classification - Default size|0.949|0.898|0.751|0.890|
+|126 - NASNetLarge - Classification - Default size|0.944|0.894|0.751|0.885|
+|131 - DenseNet169 - Classification - Attention|0.939|0.884|0.747|0.894|
+|132 - NASNetLarge - Regression - Attentention|0.937|0.883|0.737|0.884|
+|133 - DenseNet169 - Classification - Refactor|0.962|0.900|0.735|0.879|
+|134 - DenseNet169 - Regression - Refactor|0.931|0.867|0.724|0.878|
+|136 - NASNetLarge - Regression - Dft size - Refactor|0.976|0.902|0.732|0.885|
+|138 - NASNetLarge - Regression - Refactor|0.931|0.880|0.741|0.894|
+|139 - NASNetLarge - Regression - TTAx10|0.939|0.893|0.745|0.896|
