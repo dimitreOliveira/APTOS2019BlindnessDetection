@@ -101,170 +101,170 @@
 
 |Model|Train|Validation|Pb Leaderboard|Pv Leaderboard|
 |-----|-----|----------|--------------|--------------|
-|111 - EfficientNetB0 - Regression|0.946|0.876|0.732|???|
-|112 - EfficientNetB1 - Regression|0.950|0.889|0.732|???|
-|113 - EfficientNetB2 - Regression|0.955|0.895|0.737|???|
-|114 - EfficientNetB3 - Regression|0.958|0.898|0.743|???|
-|115 - EfficientNetB4 - Regression|0.940|0.889|0.744|???|
-|116 - EfficientNetB5 - Regression|0.961|0.907|0.746|???|
-|117 - EfficientNetB0 - Regression - Default size|0.941|0.880|0.723|???|
-|118 - EfficientNetB1 - Regression - Default size|0.940|0.880|0.721|???|
-|119 - EfficientNetB2 - Regression - Default size|0.951|0.895|0.737|???|
-|120 - EfficientNetB3 - Regression - Default size|0.947|0.891|0.734|???|
-|121 - EfficientNetB4 - Regression - Default size|0.964|0.903|0.751|???|
-|122 - EfficientNetB5 - Regression - Default size|0.956|0.894|0.756|???|
-|127 - EfficientNetB5 - Classification|0.944|0.905|0.753|???|
-|128 - EfficientNetB5 - Classification - Default size|0.936|0.901|0.749|???|
-|129 - EfficientNetB5 - Classification - Attention|0.981|0.891|0.741|???|
-|130 - EfficientNetB5 - Regression - Attention|0.961|0.894|0.736|???|
-|135 - EfficientNetB5 - Classification - Refactor|0.946|0.901|0.733|???|
-|137 - EfficientNetB5 - Regression - Dft size - Ref|0.963|0.904|0.737|???|
-|140 - EfficientNetB5 - Regression - TTAx10|0.958|0.900|0.759|???|
-|141 - EfficientNetB5 - Regression - 2step finetune|0.951|0.895|0.746|???|
-|142 - EfficientNetB5 - Regression - LR warmup|0.956|0.905|0.755|???|
-|143 - EfficientNetB5 - Reg - Cosine LR decay|0.951|0.913|0.756|???|
-|144 - EfficientNetB5 - Reg - Cosine LR decay Plt 3|0.944|0.909|0.771|???|
-|145 - EfficientNetB5 - Reg - LR warmup, RMSprop|0.976|0.908|0.755|???|
-|146 - EfficientNetB5 - Reg - Cosine LR, RMSprop|0.951|0.914|0.771|???|
-|147 - EfficientNetB5 - Reg- Cosine LR Plt, RMSprop|0.950|0.906|0.755|???|
-|148 - EfficientNetB5 - Reg- Zoom augmentation 125%|0.969|0.913|0.745|???|
-|149 - EfficientNetB5 - Reg- Cyclical LR triangular|0.966|0.921|0.740|???|
-|150 - EfficientNetB5 -Reg- Cyclical LR triangular2|0.950|0.908|0.761|???|
-|151 - EfficientNetB5 -Reg- Cyclical LR exp_range|0.944|0.911|0.738|???|
-|152 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig01|0.966|0.910|0.726|???|
-|153 - EfficientNetB5 -Reg- Cyc LR triangular2 Adam|0.936|0.900|0.765|???|
-|154 - EfficientNetB5 -Reg- Cyc LR triangular2 Zoom|0.941|0.902|0.755|???|
-|155 - EfficientNetB5 -Class- Cycl LR triangular2|0.962|0.898|0.744|???|
-|156 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig02|0.964|0.900|0.745|???|
-|157 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig03|0.972|0.904|0.753|???|
-|158 - EfficientNetB5 - Classification - Focal loss|0.948|0.892|0.740|???|
-|159 - EfficientNetB5 - Reg - Cosine LR, RMSprop2|0.931|0.888|0.755|???|
-|160 - EfficientNetB5 - Reg - Zoom only on train|0.956|0.901|0.759|???|
-|161 - EfficientNetB5 - Reg - Clean classifier|0.966|0.912|0.770|???|
-|162 - EfficientNetB5 - Reg - Clean classifier2|0.965|0.908|0.769|???|
-|163 - EfficientNetB5 - Reg - Batch 32, Img 224|0.962|0.895|0.769|???|
-|164 - EfficientNetB0 - Reg - Batch 128, Img 224|0.982|0.893|0.726|???|
-|165 - EfficientNetB5 - Reg - Adam Accumulate 4|0.937|0.899|0.725|???|
-|166 - EfficientNetB5 - Reg - Adam Accumulate 8|0.931|0.897|0.712|???|
-|167 - EfficientNetB5 - Reg - Big Classifier Concat|0.917|0.880|0.731|???|
-|168 - EfficientNetB5 - Reg - Big Classifier Avg|0.953|0.909|0.742|???|
-|169 - EfficientNetB5 - Reg - Big Classifier Max|0.960|0.902|0.768|???|
-|170 - EfficientNetB5 - Reg - Cosine RAdam opt|0.981|0.895|0.752|???|
-|171 - EfficientNetB5 - Reg - RAdam optimzer|0.956|0.897|0.751|???|
-|172 - EfficientNetB3 - Reg - Batch 32, Img 224|0.977|0.889|0.731|???|
-|173 - EfficientNetB5 - Reg - No Ben process|0.989|0.891|0.729|???|
-|174 - EfficientNetB5 - Reg - Dropout|0.973|0.900|0.727|???|
-|175 - EfficientNetB5 - Reg - No circle crop|0.977|0.901|0.754|???|
-|176 - EfficientNetB5 - Reg - No Ben & Circle crop|0.966|0.885|0.702|???|
-|177 - EfficientNetB5 - Reg - No crop|0.977|0.912|0.731|???|
-|178 - EfficientNetB5 - Reg - RAdam optimizer|0.975|0.890|0.736|???|
-|179 - EfficientNetB5 - Reg - Batch 32 Img 224 Plt2|0.974|0.897|0.751|???|
-|180 - EfficientNetB5 - Reg - RAdam opt, Cosine|0.960|0.912|0.764|???|
-|181 - EfficientNetB5 - Reg - RAdam opt|0.961|0.911|0.759|???|
-|182 - EfficientNetB5 - Reg - Fold1 - Bs32, Img224|0.937|0.897|0.745|???|
-|183 - EfficientNetB5 - Reg - Fold2 - Bs32, Img224|0.942|0.897|0.749|???|
-|184 - EfficientNetB5 - Reg - Fold3 - Bs32, Img224|0.976|0.907|0.748|???|
-|185 - EfficientNetB5 - Reg - Fold4 - Bs32, Img224|0.976|0.919|0.696|???|
-|186 - EfficientNetB5 - Reg - Fold5 - Bs32, Img224|0.963|0.883|0.751|???|
-|187 - EfficientNetB5 - Reg - 5-Fold Ensemble-Img224|0.962|0.963|0.766|???|
-|188 - EfficientNetB5 - Reg - Fold1 - Img 456|0.951|0.907|0.742|???|
-|189 - EfficientNetB5 - Reg - Fold2 - Img 456|0.972|0.909|0.738|???|
-|190 - EfficientNetB5 - Reg - Fold3 - Img 456|0.940|0.921|0.730|???|
-|191 - EfficientNetB5 - Reg - Fold4 - Img 456|0.948|0.920|0.739|???|
-|192 - EfficientNetB5 - Reg - Fold5 - Img 456|0.962|0.904|0.743|???|
+|111 - EfficientNetB0 - Regression|0.946|0.876|0.732|0.883|
+|112 - EfficientNetB1 - Regression|0.950|0.889|0.732|0.892|
+|113 - EfficientNetB2 - Regression|0.955|0.895|0.737|0.893|
+|114 - EfficientNetB3 - Regression|0.958|0.898|0.743|0.900|
+|115 - EfficientNetB4 - Regression|0.940|0.889|0.744|0.891|
+|116 - EfficientNetB5 - Regression|0.961|0.907|0.746|0.902|
+|117 - EfficientNetB0 - Regression - Default size|0.941|0.880|0.723|0.880|
+|118 - EfficientNetB1 - Regression - Default size|0.940|0.880|0.721|0.873|
+|119 - EfficientNetB2 - Regression - Default size|0.951|0.895|0.737|0.891|
+|120 - EfficientNetB3 - Regression - Default size|0.947|0.891|0.734|0.898|
+|121 - EfficientNetB4 - Regression - Default size|0.964|0.903|0.751|0.900|
+|122 - EfficientNetB5 - Regression - Default size|0.956|0.894|0.756|0.899|
+|127 - EfficientNetB5 - Classification|0.944|0.905|0.753|0.883|
+|128 - EfficientNetB5 - Classification - Default size|0.936|0.901|0.749|0.892|
+|129 - EfficientNetB5 - Classification - Attention|0.981|0.891|0.741|0.892|
+|130 - EfficientNetB5 - Regression - Attention|0.961|0.894|0.736|0.890|
+|135 - EfficientNetB5 - Classification - Refactor|0.946|0.901|0.733|0.870|
+|137 - EfficientNetB5 - Regression - Dft size - Ref|0.963|0.904|0.737|0.889|
+|140 - EfficientNetB5 - Regression - TTAx10|0.958|0.900|0.759|0.904|
+|141 - EfficientNetB5 - Regression - 2step finetune|0.951|0.895|0.746|0.892|
+|142 - EfficientNetB5 - Regression - LR warmup|0.956|0.905|0.755|0.895|
+|143 - EfficientNetB5 - Reg - Cosine LR decay|0.951|0.913|0.756|0.902|
+|144 - EfficientNetB5 - Reg - Cosine LR decay Plt 3|0.944|0.909|0.771|0.904|
+|145 - EfficientNetB5 - Reg - LR warmup, RMSprop|0.976|0.908|0.755|0.898|
+|146 - EfficientNetB5 - Reg - Cosine LR, RMSprop|0.951|0.914|0.771|0.897|
+|147 - EfficientNetB5 - Reg- Cosine LR Plt, RMSprop|0.950|0.906|0.755|0.902|
+|148 - EfficientNetB5 - Reg- Zoom augmentation 125%|0.969|0.913|0.745|0.906|
+|149 - EfficientNetB5 - Reg- Cyclical LR triangular|0.966|0.921|0.740|0.902|
+|150 - EfficientNetB5 -Reg- Cyclical LR triangular2|0.950|0.908|0.761|0.905|
+|151 - EfficientNetB5 -Reg- Cyclical LR exp_range|0.944|0.911|0.738|0.903|
+|152 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig01|0.966|0.910|0.726|0.887|
+|153 - EfficientNetB5 -Reg- Cyc LR triangular2 Adam|0.936|0.900|0.765|0.904|
+|154 - EfficientNetB5 -Reg- Cyc LR triangular2 Zoom|0.941|0.902|0.755|0.905|
+|155 - EfficientNetB5 -Class- Cycl LR triangular2|0.962|0.898|0.744|0.891|
+|156 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig02|0.964|0.900|0.745|0.889|
+|157 - EfficientNetB5 -Class-Cycl LR Lbl Smoothig03|0.972|0.904|0.753|0.895|
+|158 - EfficientNetB5 - Classification - Focal loss|0.948|0.892|0.740|0.884|
+|159 - EfficientNetB5 - Reg - Cosine LR, RMSprop2|0.931|0.888|0.755|0.902|
+|160 - EfficientNetB5 - Reg - Zoom only on train|0.956|0.901|0.759|0.904|
+|161 - EfficientNetB5 - Reg - Clean classifier|0.966|0.912|0.770|0.901|
+|162 - EfficientNetB5 - Reg - Clean classifier2|0.965|0.908|0.769|0.899|
+|163 - EfficientNetB5 - Reg - Batch 32, Img 224|0.962|0.895|0.769|0.891|
+|164 - EfficientNetB0 - Reg - Batch 128, Img 224|0.982|0.893|0.726|0.883|
+|165 - EfficientNetB5 - Reg - Adam Accumulate 4|0.937|0.899|0.725|0.892|
+|166 - EfficientNetB5 - Reg - Adam Accumulate 8|0.931|0.897|0.712|0.893|
+|167 - EfficientNetB5 - Reg - Big Classifier Concat|0.917|0.880|0.731|0.877|
+|168 - EfficientNetB5 - Reg - Big Classifier Avg|0.953|0.909|0.742|0.901|
+|169 - EfficientNetB5 - Reg - Big Classifier Max|0.960|0.902|0.768|0.901|
+|170 - EfficientNetB5 - Reg - Cosine RAdam opt|0.981|0.895|0.752|0.896|
+|171 - EfficientNetB5 - Reg - RAdam optimzer|0.956|0.897|0.751|0.896|
+|172 - EfficientNetB3 - Reg - Batch 32, Img 224|0.977|0.889|0.731|0.884|
+|173 - EfficientNetB5 - Reg - No Ben process|0.989|0.891|0.729|0.887|
+|174 - EfficientNetB5 - Reg - Dropout|0.973|0.900|0.727|0.882|
+|175 - EfficientNetB5 - Reg - No circle crop|0.977|0.901|0.754|0.900|
+|176 - EfficientNetB5 - Reg - No Ben & Circle crop|0.966|0.885|0.702|0.891|
+|177 - EfficientNetB5 - Reg - No crop|0.977|0.912|0.731|0.894|
+|178 - EfficientNetB5 - Reg - RAdam optimizer|0.975|0.890|0.736|0.885|
+|179 - EfficientNetB5 - Reg - Batch 32 Img 224 Plt2|0.974|0.897|0.751|0.895|
+|180 - EfficientNetB5 - Reg - RAdam opt, Cosine|0.960|0.912|0.764|0.903|
+|181 - EfficientNetB5 - Reg - RAdam opt|0.961|0.911|0.759|0.901|
+|182 - EfficientNetB5 - Reg - Fold1 - Bs32, Img224|0.937|0.897|0.745|0.886|
+|183 - EfficientNetB5 - Reg - Fold2 - Bs32, Img224|0.942|0.897|0.749|0.892|
+|184 - EfficientNetB5 - Reg - Fold3 - Bs32, Img224|0.976|0.907|0.748|0.883|
+|185 - EfficientNetB5 - Reg - Fold4 - Bs32, Img224|0.976|0.919|0.696|0.851|
+|186 - EfficientNetB5 - Reg - Fold5 - Bs32, Img224|0.963|0.883|0.751|0.889|
+|187 - EfficientNetB5 - Reg - 5-Fold Ensemble-Img224|0.962|0.963|0.766|0.894|
+|188 - EfficientNetB5 - Reg - Fold1 - Img 456|0.951|0.907|0.742|0.900|
+|189 - EfficientNetB5 - Reg - Fold2 - Img 456|0.972|0.909|0.738|0.894|
+|190 - EfficientNetB5 - Reg - Fold3 - Img 456|0.940|0.921|0.730|0.886|
+|191 - EfficientNetB5 - Reg - Fold4 - Img 456|0.948|0.920|0.739|0.898|
+|192 - EfficientNetB5 - Reg - Fold5 - Img 456|0.962|0.904|0.743|0.901|
 |193 - EfficientNetB5 -Reg- 5-Fold Ensemble-Img456|0.959|0.960|000|???|
-|194 - EfficientNetB5-Reg-Old Data-Batch32 Img224|0.746|0.810|0.584|???|
-|195 - EfficientNetB3-Reg-Old Data-Batch32 Img224|0.751|0.857|0.629|???|
-|196 - EfficientNetB0-Reg-Old Data-Batch32 Img224|0.790|0.821|0.643|???|
-|197 - EfficientNetB5 -Reg- 5-Fold-Img456 Inference|???|???|0.759|???|
-|198 - EfficientNetB0-Reg-Old&New-Batch32 Img224|0.898|0.900|0.755|???|
-|199 - EfficientNetB3-Reg-Old&New-Batch32 Img224|0.903|0.900|0.758|???|
-|200 - EfficientNetB5-Reg-Old&New-Batch32 Img224|0.900|0.908|0.681|???|
-|201 - EfficientNetB5-Reg-Old&New-Batch32 Img224 5e|0.907|0.906|0.766|???|
-|202 - EfficientNetB5-Reg-Img224 0,5New data|0.927|0.907|0.771|???|
-|203 - EfficientNetB5-Reg-Img224 0,3New data|0.802|0.908|0.772|???|
-|204 - EfficientNetB3-Reg-Img224 0,5New data|0.849|0.898|0.769|???|
-|205 - EfficientNetB5-Reg-Img224 0,5New data|0.908|0.899|0.771|???|
-|206 - EfficientNetB5-Reg-Img224 0,5data No Ben|0.904|0.916|0.796|???|
-|207 - EfficientNetB3-Reg-Img224 0,5data No Ben|0.909|0.911|0.791|???|
-|208 - EfficientNetB5-Reg-Img224 0,5data Orig top|0.887|0.903|0.763|???|
-|209 - EfficientNetB3-Reg-Img224 0,5data Orig top|0.894|0.902|0.762|???|
-|210 - EffNetB5-Reg-Img224 0,5 Orig top No Ben|0.829|0.907|0.794|???|
+|194 - EfficientNetB5-Reg-Old Data-Batch32 Img224|0.746|0.810|0.584|0.754|
+|195 - EfficientNetB3-Reg-Old Data-Batch32 Img224|0.751|0.857|0.629|0.782|
+|196 - EfficientNetB0-Reg-Old Data-Batch32 Img224|0.790|0.821|0.643|0.812|
+|197 - EfficientNetB5 -Reg- 5-Fold-Img456 Inference|???|???|0.759|0.903|
+|198 - EfficientNetB0-Reg-Old&New-Batch32 Img224|0.898|0.900|0.755|0.898|
+|199 - EfficientNetB3-Reg-Old&New-Batch32 Img224|0.903|0.900|0.758|0.899|
+|200 - EfficientNetB5-Reg-Old&New-Batch32 Img224|0.900|0.908|0.681|0.852|
+|201 - EfficientNetB5-Reg-Old&New-Batch32 Img224 5e|0.907|0.906|0.766|0.902|
+|202 - EfficientNetB5-Reg-Img224 0,5New data|0.927|0.907|0.771|0.904|
+|203 - EfficientNetB5-Reg-Img224 0,3New data|0.802|0.908|0.772|0.905|
+|204 - EfficientNetB3-Reg-Img224 0,5New data|0.849|0.898|0.769|0.903|
+|205 - EfficientNetB5-Reg-Img224 0,5New data|0.908|0.899|0.771|0.906|
+|206 - EfficientNetB5-Reg-Img224 0,5data No Ben|0.904|0.916|0.796|0.914|
+|207 - EfficientNetB3-Reg-Img224 0,5data No Ben|0.909|0.911|0.791|0.911|
+|208 - EfficientNetB5-Reg-Img224 0,5data Orig top|0.887|0.903|0.763|0.900|
+|209 - EfficientNetB3-Reg-Img224 0,5data Orig top|0.894|0.902|0.762|0.897|
+|210 - EffNetB5-Reg-Img224 0,5 Orig top No Ben|0.829|0.907|0.794|0.913|
 |211 - EffNetB3-Reg-Img224 0,5 Orig top No Ben|0.896|0.912|0.785|???|
-|212 - EfficientNetB5-Reg-Img224 0,3data No Ben|0.903|0.912|0.787|???|
-|213 - EfficientNetB3-Reg-Img224 0,3data No Ben|0.908|0.908|0.791|???|
-|214 - EfficientNetB5-Reg-Img224 0,5data No Ben 25e|0.767|0.906|0.775|???|
-|215 - EfficientNetB3-Reg-Img224 0,5data No Ben 25e|0.918|0.916|0.788|???|
-|216 - EfficientNetB5-Reg-Img456 0,5data No ben|0.875|0.917|0.707|???|
-|217 - EfficientNetB5-Reg-Img224 0,5data Reg crop|0.903|0.911|0.785|???|
-|218 - EfficientNetB5-Reg-Img256 0,5data No ben|0.901|0.910|0.780|???|
-|219 - EfficientNetB4-Reg-Img256 0,5data No ben|0.919|0.912|0.783|???|
-|220 - EfficientNetB4-Reg-Img256 0,5data LR1e-3/2|0.832|0.912|0.794|???|
-|221 - EfficientNetB5-Reg-Img328 0,5data No ben|0.917|0.918|0.784|???|
-|222 - EfficientNetB4-Reg-Img380 0,5data No ben|0.928|0.919|0.768|???|
-|223 - EfficientNetB3-Reg-Img300 0,5data No ben|0.925|0.911|0.759|???|
+|212 - EfficientNetB5-Reg-Img224 0,3data No Ben|0.903|0.912|0.787|0.912|
+|213 - EfficientNetB3-Reg-Img224 0,3data No Ben|0.908|0.908|0.791|0.907|
+|214 - EfficientNetB5-Reg-Img224 0,5data No Ben 25e|0.767|0.906|0.775|0.906|
+|215 - EfficientNetB3-Reg-Img224 0,5data No Ben 25e|0.918|0.916|0.788|0.913|
+|216 - EfficientNetB5-Reg-Img456 0,5data No ben|0.875|0.917|0.707|0.874|
+|217 - EfficientNetB5-Reg-Img224 0,5data Reg crop|0.903|0.911|0.785|0.912|
+|218 - EfficientNetB5-Reg-Img256 0,5data No ben|0.901|0.910|0.780|0.911|
+|219 - EfficientNetB4-Reg-Img256 0,5data No ben|0.919|0.912|0.783|0.914|
+|220 - EfficientNetB4-Reg-Img256 0,5data LR1e-3/2|0.832|0.912|0.794|0.916|
+|221 - EfficientNetB5-Reg-Img328 0,5data No ben|0.917|0.918|0.784|0.900|
+|222 - EfficientNetB4-Reg-Img380 0,5data No ben|0.928|0.919|0.768|0.909|
+|223 - EfficientNetB3-Reg-Img300 0,5data No ben|0.925|0.911|0.759|0.907|
 |224 - EfficientNetB5-Reg-Img224 Old data|???|???|???|???|
-|225 - EfficientNetB5-Reg-Img224 0,5data TTA 10|0.906|0.912|0.785|???|
-|226 - EfficientNetB5-Reg-Img224 0,5data No TTA|0.847|0.910|0.777|???|
+|225 - EfficientNetB5-Reg-Img224 0,5data TTA 10|0.906|0.912|0.785|0.913|
+|226 - EfficientNetB5-Reg-Img224 0,5data No TTA|0.847|0.910|0.777|0.910|
 |227 - EfficientNetB5-Class-Img224 0,5data No Ben|0.702|0.868|000|???|
 |228 - EfficientNetB5-Class-Img224 0,5 Focal Loss|0.709|0.874|000|???|
-|229 - EfficientNetB5-Reg-Img224 0,5 Longer ES|0.932|0.911|0.789|???|
-|230 - EfficientNetB5-Reg-Img224 0,5 Aug Flip|0.940|0.902|0.766|???|
-|231 - EfficientNetB5-Reg-Img224 0,5 Aug Zoom|0.887|0.912|0.782|???|
-|232 - EfficientNetB5-Reg-Img224 0,5 RAdam|0.912|0.905|0.791|???|
-|233 - EfficientNetB5-Reg-Img224 0,5data Fold1|0.909|0.921|0.782|???|
+|229 - EfficientNetB5-Reg-Img224 0,5 Longer ES|0.932|0.911|0.789|0.910|
+|230 - EfficientNetB5-Reg-Img224 0,5 Aug Flip|0.940|0.902|0.766|0.901|
+|231 - EfficientNetB5-Reg-Img224 0,5 Aug Zoom|0.887|0.912|0.782|0.909|
+|232 - EfficientNetB5-Reg-Img224 0,5 RAdam|0.912|0.905|0.791|0.907|
+|233 - EfficientNetB5-Reg-Img224 0,5data Fold1|0.909|0.921|0.782|0.913|
 |234 - EfficientNetB5-Reg-Img224 0,5data Fold2|0.823|0.898|000|???|
 |235 - EfficientNetB5-Reg-Img224 0,5data Fold3|0.906|0.925|000|???|
 |236 - EfficientNetB5-Reg-Img224 0,5data Fold4|0.895|0.923|000|???|
 |237 - EfficientNetB5-Reg-Img224 0,5data Fold5|0.904|0.901|000|???|
-|238 - EfficientNetB5-Reg-Img224 Old Pretrain NoBen|0.962|0.914|0.778|???|
+|238 - EfficientNetB5-Reg-Img224 Old Pretrain NoBen|0.962|0.914|0.778|0.910|
 |239 - EfficientNetB5-Reg-Img224 Old Pretrain|0.938|0.894|000|???|
-|240 - EfficientNetB543 -Reg- 5-Fold Ensemble|0.949|0.923|0.795|???|
-|241 - EfficientNetB5-Reg-Img456 Old Pretrain|0.955|0.904|0.773|???|
+|240 - EfficientNetB543 -Reg- 5-Fold Ensemble|0.949|0.923|0.795|0.918|
+|241 - EfficientNetB5-Reg-Img456 Old Pretrain|0.955|0.904|0.773|0.900|
 |242 - EfficientNetB5-Reg-Img328 Old Pretrain|0.964|0.909|000|???|
-|243 - EfficientNetB5-Reg-Img256 Old Pretrain|0.964|0.903|0.791|???|
-|244 - EfficientNetB5-Reg-Img224 Old Pretrain 10ep|0.965|0.911|0.773|???|
-|245 - EfficientNetB5-Reg-Img224 Old&New Pretrained|0.944|0.908|0.785|???|
-|246 - EfficientNetB5-Reg-Img256 Old&New Pretrained|0.939|0.910|0.791|???|
-|247 - EfficientNetB5-Reg-Img328 Old&New Pretrained|0.940|0.908|0.790|???|
+|243 - EfficientNetB5-Reg-Img256 Old Pretrain|0.964|0.903|0.791|0.909|
+|244 - EfficientNetB5-Reg-Img224 Old Pretrain 10ep|0.965|0.911|0.773|0.905|
+|245 - EfficientNetB5-Reg-Img224 Old&New Pretrained|0.944|0.908|0.785|0.907|
+|246 - EfficientNetB5-Reg-Img256 Old&New Pretrained|0.939|0.910|0.791|0.907|
+|247 - EfficientNetB5-Reg-Img328 Old&New Pretrained|0.940|0.908|0.790|0.907|
 |248 - EfficientNetB5-Reg-Img224 Old data Balanced|???|???|???|???|
-|249 - EfficientNetB5 -Reg- 5-Fold Img224 Old&New|0.959|0.963|0.803|???|
-|250 - EffNetB5-Reg-224 Old Pretrain Balanced NoBen|0.941|0.907|0.770|???|
-|251 - EffNetB5-Reg-224 Old Pretrain Balanced|0.924|0.892|000|???|
+|249 - EfficientNetB5 -Reg- 5-Fold Img224 Old&New|0.959|0.963|0.803|0.918|
+|250 - EffNetB5-Reg-224 Old Pretrain Balanced NoBen|0.941|0.907|0.770|0.901|
+|251 - EffNetB5-Reg-224 Old Pretrain Balanced|0.924|0.892|000|0.892|
 |252 - EffNetB5-Reg-256 Old Pretrain Balanced NoBen|0.925|0.894|000|???|
-|253 - EffNetB5-Reg-328 Old Pretrain Balanced NoBen|0.936|0.908|000|???|
-|254 - EffNetB5-Reg-224 0,3Old&New Balanced No Ben|0.931|0.911|0.768|???|
-|255 - EffNetB5-Reg-Img224 Old Pretrain Sample STDV|0.967|0.913|0.786|???|
-|256 - EffNetB5-Reg-Img224 Old Pretrain FeatureSTDV|0.944|0.902|000|???|
+|253 - EffNetB5-Reg-328 Old Pretrain Balanced NoBen|0.936|0.908|000|0.899|
+|254 - EffNetB5-Reg-224 0,3Old&New Balanced No Ben|0.931|0.911|0.768|0.905|
+|255 - EffNetB5-Reg-Img224 Old Pretrain Sample STDV|0.967|0.913|0.786|0.911|
+|256 - EffNetB5-Reg-Img224 Old Pretrain FeatureSTDV|0.944|0.902|000|0.905|
 |257 - EffNetB5 -Reg- 5-Fold Img224 Old&New No Aug|0.957|0.959|0.796|???|
-|258 - EffNetB5 -Reg- 5-Fold Img224 Old&New TTA 10|0.959|0.963|0.802|???|
+|258 - EffNetB5 -Reg- 5-Fold Img224 Old&New TTA 10|0.959|0.963|0.802|0.919|
 |259 - EfficientNetB5-Reg-Img224 Balanced Fold1|0.932|0.920|000|???|
 |260 - EfficientNetB5-Reg-Img224 Balanced Fold2|0.879|0.924|000|???|
 |261 - EfficientNetB5-Reg-Img224 Balanced Fold3|0.907|0.917|000|???|
 |262 - EfficientNetB5-Reg-Img224 Balanced Fold4|0.888|0.928|000|???|
 |263 - EfficientNetB5-Reg-Img224 Balanced Fold5|0.811|0.887|000|???|
-|264 - EffNetB5 -Reg- Img224 Old&New Resize ensemble|0.946|0.912|0.781|???|
+|264 - EffNetB5 -Reg- Img224 Old&New Resize ensemble|0.946|0.912|0.781|0.910|
 |265 - EfficientNetB5-Reg-Img328 Old Pretrain Fold1|0.964|0.915|000|???|
 |266 - EfficientNetB5-Reg-Img328 Old Pretrain Fold2|0.934|0.908|000|???|
 |267 - EfficientNetB5-Reg-Img328 Old Pretrain Fold3|0.962|0.915|000|???|
 |268 - EfficientNetB5-Reg-Img328 Old Pretrain Fold4|0.963|0.924|000|???|
 |269 - EfficientNetB5-Reg-Img328 Old Pretrain Fold5|0.967|0.910|000|???|
-|270 - EffNetB5 -Reg- 5-Fold 328 OldPretrain TTA 5|0.961|0.960|0.796|???|
-|271 - EffNetB5 -Reg- 5-Fold 224 Balanced TTA 5|0.956|0.958|0.803|???|
+|270 - EffNetB5 -Reg- 5-Fold 328 OldPretrain TTA 5|0.961|0.960|0.796|0.914|
+|271 - EffNetB5 -Reg- 5-Fold 224 Balanced TTA 5|0.956|0.958|0.803|0.915|
 |272 - EfficientNetB4-Reg-Img256 Old&New Fold1|0.697|0.877|000|???|
 |273 - EfficientNetB4-Reg-Img256 Old&New Fold2|0.839|0.923|000|???|
 |274 - EfficientNetB4-Reg-Img256 Old&New Fold3|0.738|0.899|000|???|
 |275 - EfficientNetB4-Reg-Img256 Old&New Fold4|0.672|0.894|000|???|
 |276 - EfficientNetB4-Reg-Img256 Old&New Fold5|???|???|???|???|
-|277 - EffNetB5 -Reg- 5-Foldx2 Img224 TTA 5|0.959|0.960|0.804|???|
+|277 - EffNetB5 -Reg- 5-Foldx2 Img224 TTA 5|0.959|0.960|0.804|0.918|
 |278 - EfficientNetB4-Reg-Img224 Old data Balanced|0.800|0.716|000|???|
 |279 - EfficientNetB4-Reg-Img256 Old Pretrain Fold1|0.929|0.902|000|???|
 |280 - EfficientNetB4-Reg-Img256 Old Pretrain Fold2|0.933|0.895|000|???|
 |281 - EfficientNetB4-Reg-Img256 Old Pretrain Fold3|0.965|0.921|000|???|
 |282 - EfficientNetB4-Reg-Img256 Old Pretrain Fold4|0.964|0.920|000|???|
 |283 - EfficientNetB4-Reg-Img256 Old Pretrain Fold5|0.965|0.898|000|???|
-|284 - EfficientNet -Reg- 5-Fold Top5 TTA 5|0.951|0.921|000|???|
-|285 - EffNetB5 -Reg- 5-Fold 224 Balanced TTA 5|0.948|0.947|0.780|???|
+|284 - EfficientNet -Reg- 5-Fold Top5 TTA 5|0.951|0.921|000|0.874|
+|285 - EffNetB5 -Reg- 5-Fold 224 Balanced TTA 5|0.948|0.947|0.780|0.905|
 
 ### Others
 
