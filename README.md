@@ -3,7 +3,7 @@
 ## About the repository
 The goal of this repository is to use the competition data to build machine learning models to process the image data and forecast if the image has any degree of diabetic retinopathy, also try techniques of image preprocessing to help the models extract relevant features.
 
-### Finished at 175 place (Bronze medal)
+### Finished at 163 place (Bronze medal - 0.919 Quadratic Weighted Kappa)
 
 ### Published Kaggle kernels:
 - [APTOS Blindness Detection - EDA and Keras ResNet50](https://www.kaggle.com/dimitreoliveira/aptos-blindness-detection-eda-and-keras-resnet50)
