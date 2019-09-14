@@ -8,7 +8,7 @@
 - **Training:**
   - Warm-up classifier head (5 epochs).
   - Trained complete model (20 epochs).
-- **Preprocess:** 
+- **Preprocess:**
   - Convert image to RGB channels.
   - Circle crop image.
   - Resize image to 224x224.
@@ -16,14 +16,14 @@
   - Rescale (divide by 255).
   - Random rotation 360°.
   - Random flip (horizontal and vertical).
-- **Inference:** TTA x 10 and averaged all 5 models. 
+- **Inference:** TTA x 10 and averaged all 5 models.
 
 
 # Detailed solution
 
 The problem was treated as a regression, this way should be easier to maximize the competition metric "Quadratic weighted Kappa", and also the labels had a semantic relationship between its neighbors, I Have also tried regular multiclass classification the results were worse. The loss function was "mean_squared_error" and the models' output were regular "linear" activation function.
 
-- **[Data](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Best%20solution%20(Bronze%20medal%20-%20175th%20place)%20/Train%20%26%20Validation%20split%20-%20(Old%2BNew).ipynb):**
+- **[Data](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Best%20solution%20(Bronze%20medal%20-%20163rd%20place)%20/Train%20%26%20Validation%20split%20-%20(Old%2BNew).ipynb):**
   - Old data was sampled to a more balanced distribution, was used only 25% of samples from class 0.
   - Each fold had all sampled old data and 20% of new data.
   - Training set: All sampled old data and 80% of new data (15770 samples from old data and 2929 samples from new data).
@@ -32,7 +32,7 @@ The problem was treated as a regression, this way should be easier to maximize t
 - **Model:** EfficientNetB5
   - Imagenet pre-trained weights.
   - Replaced top head with GlobalAveragePooling2D and a Dense layer as linear output.
-- **[Training](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Best%20solution%20(Bronze%20medal%20-%20175th%20place)%20/237%20-%20EfficientNetB5-Reg-Img224%200%2C5data%20Fold5.ipynb):**
+- **[Training](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Best%20solution%20(Bronze%20medal%20-%20163rd%20place)%20/237%20-%20EfficientNetB5-Reg-Img224%200%2C5data%20Fold5.ipynb):**
   - Parameters:
     - Batch size: 32
   - Warm-up step:
@@ -59,7 +59,7 @@ The problem was treated as a regression, this way should be easier to maximize t
   - Rescale (divide by 255).
   - Random rotation 360°.
   - Random flip (horizontal and vertical).
-- **[Inference](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Best%20solution%20(Bronze%20medal%20-%20175th%20place)%20/258%20-%20EffNetB5%20-Reg-%205-Fold%20Img224%20Old%26New%20TTA%2010.ipynb):**
+- **[Inference](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Best%20solution%20(Bronze%20medal%20-%20163rd%20place)%20/258%20-%20EffNetB5%20-Reg-%205-Fold%20Img224%20Old%26New%20TTA%2010.ipynb):**
   - Test time augmentation (TTA) x10, using the same augmentations of the training step.
   - Averaged all the 5 models and their TTA predictions.
   - Threshold: [0.5, 1.5, 2.5, 3.5]

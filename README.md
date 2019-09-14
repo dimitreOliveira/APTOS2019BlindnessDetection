@@ -12,7 +12,7 @@ The goal of this repository is to use the competition data to build machine lear
 ### What you will find
 - Documentation [[link]](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/tree/master/Documentation)
   - Project working cycle and effort, relevant content and insights [[link]](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/blob/master/Documentation/Planning.md)
-- Best solution stack [[link]](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/tree/master/Best%20solution%20(Bronze%20medal%20-%20175th%20place)%20)
+- Best solution stack [[link]](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/tree/master/Best%20solution%20(Bronze%20medal%20-%20163rd%20place)%20)
 - Dataset split [[link]](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/tree/master/Dataset%20split)
 - Models [[link]](https://github.com/dimitreOliveira/APTOS2019BlindnessDetection/tree/master/Model%20backlog)
 
